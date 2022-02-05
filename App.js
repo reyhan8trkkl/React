@@ -1,16 +1,16 @@
-import emojipedia from "./emojipedia";
+import contacts from "./contacts"; 
+import Card from "./components/Card";
 import React from 'react';
-import Entry from "./components/Entry";
 
 const App = () => {
-    console.log(emojipedia);
-    return (<>
-        <h1>Emojipedia</h1>
-        <div className="dictionary">
-        <Entry data={emojipedia}/>
-            
+    console.log(contacts);
+    return (
+        <div>
+            <h1 className="heading">My Contacts</h1>
+            {contacts.map(item =>{
+                return <Card name={item.name} img={item.imgURL} email={item.email} phone={item.phone}/>
+            })}
         </div>
-        </>
     );
 }
 
