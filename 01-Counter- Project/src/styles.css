@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 400px;
+    min-width: 400px;
+    background-color: #dfe6e9;
+    text-align: center;
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 2em;
+    color: #2d3436;
+    margin: 20px 0 30px;
+  }
+  
+  .card {
+    border-radius: 25px;
+    position: relative;
+    padding: 25px 15px;
+    background-color: #81ecec;
+    margin: 50px 0;
+    height: 200px;
+    box-shadow: 0 2px 5px #ccc;
+    text-align: center;
+  }
