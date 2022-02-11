@@ -1,0 +1,28 @@
+
+body{
+  background-color: rgb(250, 147, 236);
+}
+
+.parent {
+  background-color: rgb(147, 250, 241);
+}
+
+.title {
+  color:indigo;
+}
+
+#children {
+  color:hotpink;
+}
+
+.child {
+  color:rgb(32, 233, 49);
+}
+
+p {
+  color:green
+}
+
+#parap {
+  color:royalblue;
+}

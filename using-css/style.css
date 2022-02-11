@@ -1,0 +1,15 @@
+ .parent {
+    color: blue;
+  }
+
+  .title {
+    color:red;
+  }
+/*   
+  .child {
+    color:red;
+  } */
+  
+  p {
+    color:red
+  }
