@@ -1,0 +1,44 @@
+.filter-input {
+  border-color: rebeccapurple;
+  margin-top: 10px; /*Input üstten boşluğu*/
+  height: 40px; /*Input Yüksekliği*/
+  line-height: 25px; /*Satır boşluğu*/
+  width: 400px; /*Sağa sola tam yaslanması için*/
+  text-indent: 10px; /*Paragraf Boşluğu*/
+ 
+}
+
+.listField {
+  width: 400px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul,li{
+  margin:0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.listField li {
+  padding: 5px;
+  background-color: #f8f8f8;
+  color: black;
+  border-bottom: solid 1px #f1f1f1;
+  clear: both;
+}
+
+.listField li span {
+  display: block;
+}
+
+.listField li span.name {
+  float: left;
+}
+
+.listField li span.phone {
+  float: right;
+}
+
+
+
