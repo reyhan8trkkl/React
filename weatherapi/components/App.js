@@ -5,7 +5,7 @@ import React, { Component} from "react";
 export default class App extends Component {
   state = {
     url: "https://api.openweathermap.org/data/2.5/",
-    key: "f9bb439d319a4103c1b36b8371d7bc13",
+    key: ".......",
   };
 
    setQery = (e) => {
