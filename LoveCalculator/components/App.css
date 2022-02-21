@@ -1,0 +1,74 @@
+body {
+    background-image: url(./videoblocks-floating-little-hearts-glowing-twinkling-sparkling-particles-seamless-motion-background-full-hd-1920-x-1080-gold-golden-over-purple-backdrop_hgarqx21w_thumbnail-1080_01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.appcss {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  margin-top: auto;
+  margin-left: auto;
+  width: auto;
+  height: auto;
+}
+
+#titlee {
+  font-family: monospace;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(243, 219, 112);
+  text-shadow: 3px 3px black;
+}
+#titlee h4 {
+  color: deeppink;
+}
+#myform {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  text-shadow: 3px 3px black;
+  color: plum;
+}
+#inp1 {
+  margin: 20px 20px 50px 10px;
+  box-shadow: 2px 2px;
+  border-color: blueviolet;
+  height: 22px;
+  width: 180px;
+}
+#inp2 {
+  margin: 20px 20px 50px 10px;
+  box-shadow: 2px 2px;
+  height: 22px;
+  width: 180px;
+  border-color: blueviolet;
+}
+#btnres {
+  left: 20%;
+  margin-top: auto;
+  margin-left: 250px;
+}
+#btn1 {
+  margin-right: 20px;
+  height: 30px;
+  width: 120px;
+  border-color: deeppink;
+  background-color: white;
+  font-family: cursive;
+}
+#btn2 {
+  height: 30px;
+  width: 120px;
+  border-color: deeppink;
+  background-color: white;
+  font-family: cursive;
+}
+#ilk {
+  margin-left: 325px;
+  margin-top: 50px;
+  color: rgb(243, 219, 112);
+  text-shadow: 3px 3px black;
+  font-size: 40px;
+  font-family: cursive;
+}
