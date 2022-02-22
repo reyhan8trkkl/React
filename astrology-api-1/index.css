@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  height: 100vh;
+  background-image: url('./components/wp4070569.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+#title{
+    margin-top: 40px;
+    font-size: 40px;
+    color: rgb(233, 233, 32);
+}
+#searchBar {
+    margin-top: 40px;
+    height: 30px;
+    width: 210px;
+    border-color:navy;
+    background-color: white;
+    text-align: center;
+  }
+.text{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px darkblue;
+}
